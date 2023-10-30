@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilos.css">
+  <title>Tarjeta de crédito</title>
+</head>
+
+<body>
+  <header>
+    <h1>Tarjeta de crédito</h1>
+  </header>
+
+  <main>
+    <form>
+      <label for="numero">Número de la tarjeta</label>
+      <input type="text" id="numero">
+
+      <label for="nombre">Nombre</label>
+      <input type="text" id="nombre">
+
+      <label for="fecha">Fecha de expiración</label>
+      <input type="date" id="fecha">
+
+      <button type="button">Ver tarjeta</button>
+    </form>
+
+    <section>
+      <div class="tarjeta">
+        <h2 class="banco">Banco de crédito</h2>
+        <div class="chip"></div>
+        <div class="numero">1234 5678 9876 5432</div>
+        <div class="datos">
+          <div class="nombre">Marcelo Velásquez</div>
+          <div class="fecha">05/2025</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Desarrollado por Chicas Programadoras</p>
+  </footer>
+
+  <script src="tarjeta.js"></script>
+
+</body>
+
+</html>
